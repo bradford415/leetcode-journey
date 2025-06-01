@@ -20,3 +20,6 @@ Code and notes repository for my leetcode journey
    - Do a few problems for each category
 3. Do the first 1-50 problems in order
 
+## Notes:
+- Do NOT spend longer than 40 minutes on a problem (start a timer when I start the problem)
+
