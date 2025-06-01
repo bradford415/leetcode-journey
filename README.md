@@ -1,2 +1,22 @@
 # leetcode-journey
-Code and notes repository for my leetcode jorney
+Code and notes repository for my leetcode journey
+
+## Study plan
+1. Study data structures part 1
+   - Arrays
+   - Linked lists
+   - Maps
+   - Know the time complexity and space complexity of each
+   - Do a few problems for each category
+2. Study data structures part 2
+   - Searching algorithms
+     - binary search
+     - linear search
+   - Sorting algorithms
+     - quicksort
+   - Trees
+     - pre, in, and post traversals for binary trees
+   - Know the time complexity and space complexity of each
+   - Do a few problems for each category
+3. Do the first 1-50 problems in order
+
