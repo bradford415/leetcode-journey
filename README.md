@@ -23,3 +23,6 @@ Code and notes repository for my leetcode journey
 ## Notes:
 - Do NOT spend longer than 40 minutes on a problem (start a timer when I start the problem)
 
+## Problems completed:
+* (1.) Two Sum
+
