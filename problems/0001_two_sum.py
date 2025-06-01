@@ -11,9 +11,8 @@ def twoSum(nums: List[int], target: int) -> List[int]:
 
     # loop through the entire array as the first pointer
     for i in range(len(nums)):
-
         # define a second pointer j that starts at i + 1 and loop through the end of the array;
-        # since we can only use one element one, the first pointer does not need to be checked 
+        # since we can only use one element one, the first pointer does not need to be checked
         # again by the 2nd pointer
         for j in range(i + 1, len(nums)):
             if nums[i] + nums[j] == target:
@@ -29,7 +28,7 @@ def twoSum_fast(nums: List[int], target: int) -> List[int]:
     """
 
     # build a dictionary of: keys = array value s and values = index of values
-    vals_idx_dict= {}
+    vals_idx_dict = {}
     for i in range(len(nums)):
         cur_val = nums[i]
         vals_idx_dict[cur_val] = i
@@ -46,10 +45,8 @@ def twoSum_fast(nums: List[int], target: int) -> List[int]:
             return [i, need_idx]
 
 
-
 if __name__ == "__main__":
-
-    nums = [2,7,11,15]
+    nums = [2, 7, 11, 15]
     target = 9
 
     ret = twoSum_fast(nums, target)
