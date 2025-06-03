@@ -28,5 +28,9 @@ Code and notes repository for my leetcode journey
 - Do NOT spend longer than 40 minutes on a problem (start a timer when I start the problem)
 
 ## Problems completed:
-* (1.) Two Sum
+| Problem # | Name                        | Help Hint                                                      |
+|-----------|-----------------------------|----------------------------------------------------------------|
+| 1         |  Two Sum                    | hash map and subtract target - value                           |
+| 11        |  Container With Most Water  | left and right pointers at opposite ends of array              |
+| 15        |  Three Sum                  | fix a number and make two sum problem then use L & R pointers  |
 
