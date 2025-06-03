@@ -27,7 +27,7 @@ def twoSum_fast(nums: List[int], target: int) -> List[int]:
           the space does not scale with the input length
     """
 
-    # build a dictionary of: keys = array value s and values = index of values
+    # build a dictionary of: keys = array values and values = index of arr values
     vals_idx_dict = {}
     for i in range(len(nums)):
         cur_val = nums[i]
