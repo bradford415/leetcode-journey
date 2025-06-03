@@ -4,7 +4,9 @@ Code and notes repository for my leetcode journey
 ## Study plan
 1. Study data structures part 1
    - Arrays
+     - [array problems](https://leetcode.com/problem-list/array/)
    - Linked lists
+     - [linked list problems](https://leetcode.com/problem-list/linked-list/)
    - Maps
    - Know the time complexity and space complexity of each
    - Do a few problems for each category
