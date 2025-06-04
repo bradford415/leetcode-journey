@@ -1,7 +1,7 @@
 from typing import List
 
 
-def threeSum(self, nums: List[int]) -> List[List[int]]:
+def threeSum(nums: List[int]) -> List[List[int]]:
     """NOTE: the optimal solution is pretty confuing and I'd recommend looking at NeetCode video
              if you need a refresher on how it works
 
@@ -46,5 +46,5 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
 if __name__ == "__main__":
     nums = [-1,0,1,2,-1,-4]
 
-    ret = threeSum(heights)
+    ret = threeSum(nums)
     print(ret)
