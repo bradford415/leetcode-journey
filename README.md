@@ -8,6 +8,7 @@ Code and notes repository for my leetcode journey
    - Linked lists
      - [linked list problems](https://leetcode.com/problem-list/linked-list/)
    - Maps
+     - [hash table problems](https://leetcode.com/problem-list/hash-table/)
    - Know the time complexity and space complexity of each
    - Do a few problems for each category
 2. Study data structures part 2
