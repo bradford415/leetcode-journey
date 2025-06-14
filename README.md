@@ -31,12 +31,13 @@ Code and notes repository for my leetcode journey
 - Do NOT spend longer than 40 minutes on a problem (start a timer when I start the problem)
 
 ## Problems completed:
-| Problem # | Name                              | Help Hint                                                                                   |
-|-----------|-----------------------------------|---------------------------------------------------------------------------------------------|
-| 1         |  Two Sum                          | hash map and subtract target - value                                                        |
-| 2         |  Add Two Numbers                  | iterate both linked lists and perform handwritten addition normally                         |
-| 11        |  Container With Most Water        | left and right pointers at opposite ends of array                                           |
-| 15        |  Three Sum                        | sort array, fix a number and make two sum problem then use L & R pointers                   |
-| 19        |  Remove Nth Node From End of List | count elements                                                                              |
-| 21        |  Merge Two Sorted Lists           | loop till end of 1 list, link smaller val, link remaining list                              |
+| Problem # | Name                                | Help Hint                                                                                   |
+|-----------|-------------------------------------|---------------------------------------------------------------------------------------------|
+| 1         |  Two Sum                            | hash map and subtract target - value                                                        |
+| 2         |  Add Two Numbers                    | iterate both linked lists and perform handwritten addition normally                         |
+| 3         |  Longest substring No Repeat Chars  | sliding window w/ left & right pointer, use set for substring                               |
+| 11        |  Container With Most Water          | left and right pointers at opposite ends of array                                           |
+| 15        |  Three Sum                          | sort array, fix a number and make two sum problem then use L & R pointers                   |
+| 19        |  Remove Nth Node From End of List   | count elements                                                                              |
+| 21        |  Merge Two Sorted Lists             | loop till end of 1 list, link smaller val, link remaining list                              |
 
