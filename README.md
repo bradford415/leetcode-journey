@@ -10,7 +10,7 @@ Code and notes repository for my leetcode journey
    - Maps
      - [hash table problems](https://leetcode.com/problem-list/hash-table/)
    - Know the time complexity and space complexity of each
-   - Do a few problems for each category
+   - Do three problems for each category
 2. Study data structures part 2
    - Searching algorithms
      - binary search
