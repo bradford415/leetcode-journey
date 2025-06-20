@@ -40,6 +40,7 @@ Code and notes repository for my leetcode journey
 | 12        |  Integer to Roman                   | build Roman numeral map and include the "special cases"                                     |
 | 13        |  Roman to Integer                   | build map and include special cases or subtract the symbol if it's smaller than the next    |
 | 15        |  Three Sum                          | sort array, fix a number and make two sum problem then use L & R pointers                   |
+| 17        |  Letter Combos of a Phone Number    | Backtrack with recursion                                                                    |
 | 19        |  Remove Nth Node From End of List   | count elements                                                                              |
 | 21        |  Merge Two Sorted Lists             | loop till end of 1 list, link smaller val, link remaining list                              |
 
