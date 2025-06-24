@@ -14,6 +14,7 @@ Code and notes repository for my leetcode journey
 2. Study data structures part 2
    - Searching algorithms
      - binary search
+       - [binary search problems](https://leetcode.com/problem-list/binary-search/))
      - linear search
    - Sorting algorithms
      - quicksort
