@@ -44,4 +44,5 @@ Code and notes repository for my leetcode journey
 | 17        |  Letter Combos of a Phone Number    | Backtrack with recursion                                                                    |
 | 19        |  Remove Nth Node From End of List   | count elements                                                                              |
 | 21        |  Merge Two Sorted Lists             | loop till end of 1 list, link smaller val, link remaining list                              |
+| 33        |  Search in Rotated Array            | bin search, determine if M is in left or right sorted portion, adjust L/R based on target   |
 
