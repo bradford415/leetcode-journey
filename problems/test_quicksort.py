@@ -1,7 +1,8 @@
 import random
 
 def quicksort(arr, low, high):
-    if low < high:
+
+    if low < high: # base case when the subarray is 1 or 0 elements
         pivot_index = partition(arr, low, high)
         quicksort(arr, low, pivot_index - 1)
         quicksort(arr, pivot_index + 1, high)
