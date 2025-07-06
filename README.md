@@ -27,6 +27,7 @@ Code and notes repository for my leetcode journey
 ### Other sets of problems to do
 - Blind 75
   - The 75 problems are specifically chosen because they cover the most fundamental and frequently asked data structures and algorithmic patterns in technical coding interviews for software engineering roles
+- Neet Code 150
 
 ## Notes:
 - Do NOT spend longer than 40 minutes on a problem (start a timer when I start the problem)
