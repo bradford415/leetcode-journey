@@ -20,6 +20,8 @@ Code and notes repository for my leetcode journey
      - quicksort
    - Trees
      - pre, in, and post traversals for binary trees
+     - [binary tree problems](https://leetcode.com/problem-list/binary-tree/)
+     - [binary search tree problems](https://leetcode.com/problem-list/binary-search-tree/)
    - Know the time complexity and space complexity of each
    - Do a few problems for each category
 3. Do the first 1-50 problems in order
