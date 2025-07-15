@@ -38,19 +38,21 @@ Code and notes repository for my leetcode journey
 - Super easy to understand tree traversals for [preorder](https://www.youtube.com/watch?v=1WxLM2hwL-U&ab_channel=MichaelSambol), [inorder](https://www.youtube.com/watch?v=5dySuyZf9Qg&ab_channel=MichaelSambol), and [postorder](https://www.youtube.com/watch?v=4zVdfkpcT6U&ab_channel=MichaelSambol)
 
 ## Problems completed:
-| Problem # | Name                                | Help Hint                                                                                   |
-|-----------|-------------------------------------|---------------------------------------------------------------------------------------------|
-| 1         |  Two Sum                            | hash map and subtract target - value                                                        |
-| 2         |  Add Two Numbers                    | iterate both linked lists and perform handwritten addition normally                         |
-| 3         |  Longest substring No Repeat Chars  | sliding window w/ left & right pointer, use set for substring                               |
-| 11        |  Container With Most Water          | left and right pointers at opposite ends of array                                           |
-| 12        |  Integer to Roman                   | build Roman numeral map and include the "special cases"                                     |
-| 13        |  Roman to Integer                   | build map and include special cases or subtract the symbol if it's smaller than the next    |
-| 15        |  Three Sum                          | sort array, fix a number and make two sum problem then use L & R pointers                   |
-| 17        |  Letter Combos of a Phone Number    | Backtrack with recursion                                                                    |
-| 19        |  Remove Nth Node From End of List   | count elements                                                                              |
-| 21        |  Merge Two Sorted Lists             | loop till end of 1 list, link smaller val, link remaining list                              |
-| 33        |  Search in Rotated Array            | bin search, determine if M is in left or right sorted portion, adjust L/R based on target   |
-| 34        |  First & Last Position Sorted Array | double modified bin search, one for L index and one for R index; modified=continue search   |
-| 96        |  Unique Binary Search Trees         | DP; consider every node to be root, find number of tree combinations in L & R subtrees      |
+| Problem # | Name                                | Help Hint                                                                                    |
+|-----------|-------------------------------------|----------------------------------------------------------------------------------------------|
+| 1         |  Two Sum                            | hash map and subtract target - value                                                         |
+| 2         |  Add Two Numbers                    | iterate both linked lists and perform handwritten addition normally                          |
+| 3         |  Longest substring No Repeat Chars  | sliding window w/ left & right pointer, use set for substring                                |
+| 11        |  Container With Most Water          | left and right pointers at opposite ends of array                                            |
+| 12        |  Integer to Roman                   | build Roman numeral map and include the "special cases"                                      |
+| 13        |  Roman to Integer                   | build map and include special cases or subtract the symbol if it's smaller than the next     |
+| 15        |  Three Sum                          | sort array, fix a number and make two sum problem then use L & R pointers                    |
+| 17        |  Letter Combos of a Phone Number    | Backtrack with recursion                                                                     |
+| 19        |  Remove Nth Node From End of List   | count elements                                                                               |
+| 21        |  Merge Two Sorted Lists             | loop till end of 1 list, link smaller val, link remaining list                               |
+| 33        |  Search in Rotated Array            | bin search, determine if M is in left or right sorted portion, adjust L/R based on target    |
+| 34        |  First & Last Position Sorted Array | double modified bin search, one for L index and one for R index; modified=continue search    |
+| 96        |  Unique Binary Search Trees         | DP; consider every node to be root, find number of tree combinations in L & R subtrees       |
+| 98        |  Validate Binary Search Tree        | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
+| 98        |  Validate Binary Search Tree        | inorder traversal then check if list is sorted                                               |
 
