@@ -55,4 +55,5 @@ Code and notes repository for my leetcode journey
 | 96        |  Unique Binary Search Trees         | DP; consider every node to be root, find number of tree combinations in L & R subtrees       |
 | 98        |  Validate Binary Search Tree        | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree        | inorder traversal then check if list is sorted                                               |
+| 99        |  Recover Binary Search Tree         | inorder traversal, swap first & last violation or swap first & middle violation if adjacent  |
 
