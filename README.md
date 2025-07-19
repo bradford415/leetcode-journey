@@ -45,6 +45,7 @@ Code and notes repository for my leetcode journey
 | 3         |  Longest substring No Repeat Chars  | sliding window w/ left & right pointer, use set for substring                                |
 | 5         |  Longest Palindromic Substring      | loop all chars, use L/R pointers expanding outwards, even & odd substrings in 2 while loops  |
 | 6         |  Zigag Conversion                   | increment to get to next char, for middle rows handle the extra character                    |
+| 7         |  Reverse Integer                    | result = result*10 + integer % 10, reduce number -> int(x / 10); check overflow on last digit|
 | 11        |  Container With Most Water          | left and right pointers at opposite ends of array                                            |
 | 12        |  Integer to Roman                   | build Roman numeral map and include the "special cases"                                      |
 | 13        |  Roman to Integer                   | build map and include special cases or subtract the symbol if it's smaller than the next     |
