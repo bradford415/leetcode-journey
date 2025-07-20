@@ -37,6 +37,7 @@ Code and notes repository for my leetcode journey
 ## Resources
 __Algorithms__
 - Super easy to understand tree traversals for [preorder](https://www.youtube.com/watch?v=1WxLM2hwL-U&ab_channel=MichaelSambol), [inorder](https://www.youtube.com/watch?v=5dySuyZf9Qg&ab_channel=MichaelSambol), and [postorder](https://www.youtube.com/watch?v=4zVdfkpcT6U&ab_channel=MichaelSambol)
+
 __Official Interview Guides__
   - [Meta's official interview guide](https://www.metacareers.com/swe-prep-onsite)
     - note it mentions that Meta does NOT ask Dynamic Programming (DP) problems
