@@ -65,6 +65,7 @@ __Official Interview Guides__
 | 15        |  Three Sum                          | sort array, fix a number and make two sum problem then use L & R pointers                    |
 | 17        |  Letter Combos of a Phone Number    | Backtrack with recursion                                                                     |
 | 19        |  Remove Nth Node From End of List   | count elements                                                                               |
+| 20        |  Valid Parentheses                  | add to stack until closing brace, use map for open-close pair, pop stack pair matches        |
 | 21        |  Merge Two Sorted Lists             | loop till end of 1 list, link smaller val, link remaining list                               |
 | 33        |  Search in Rotated Array            | bin search, determine if M is in left or right sorted portion, adjust L/R based on target    |
 | 34        |  First & Last Position Sorted Array | double modified bin search, one for L index and one for R index; modified=continue search    |
