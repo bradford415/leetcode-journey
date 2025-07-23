@@ -62,6 +62,9 @@ def generateParenthesis(n: int) -> List[str]:
         if num_close < num_open:
             p_pair.append(")")
             backtrack(num_open, num_close + 1, p_pair)
+            
+            # NOTE: we need to pop because we have a GLOBAL stack; in the `test` function, 
+            #       we're building a new pair every recursive call (not global)
             p_pair.pop() # backtrack (undo) the operation to try other scenarios (i.e., append '(' )
 
         if num_open < n:
@@ -70,7 +73,11 @@ def generateParenthesis(n: int) -> List[str]:
             p_pair.pop() # # backtrack (undo) the operation to try other scenarios (i.e., append ')')
 
     # impossible to start with ")" for valid parentheses
-    backtrack(num_open=1, num_close=0, p_pair=["("])
+    backtrack(num_open=1, num_close=0, p_pair=["("]) 
+
+    # NOTE: passing in this list is still global stack even though we pass it around in the function,
+    #       we just have to because i did not set this to a variable; the better solution is making a global
+    #       stack variable and not passing it around in the recursive call or just use the `test` solution
 
     return valid_parens
 
