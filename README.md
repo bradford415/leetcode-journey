@@ -74,3 +74,8 @@ __Official Interview Guides__
 | 98        |  Validate Binary Search Tree        | inorder traversal then check if list is sorted                                               |
 | 99        |  Recover Binary Search Tree         | inorder traversal, swap first & last violation or swap first & middle violation if adjacent  |
 
+## Quick formulas
+| Description                                        | Formula         |
+|----------------------------------------------------|-----------------|
+| Number of permutations in a string (distinct chars) | n!             |
+
