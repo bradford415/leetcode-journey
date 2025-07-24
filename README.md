@@ -48,6 +48,11 @@ __Algorithms__
 __Official Interview Guides__
   - [Meta's official interview guide](https://www.metacareers.com/swe-prep-onsite)
     - note it mentions that Meta does NOT ask Dynamic Programming (DP) problems
+   
+
+## Concepts that you should be able to code by muscle memory
+* Binary search
+* DFS (pre, in, post)
 
 ## Problems completed:
 | Problem # | Name                                | Help Hint                                                                                    |
