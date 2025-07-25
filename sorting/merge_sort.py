@@ -43,7 +43,7 @@ def merge_sort(subarray):
     merge(left_array, right_array, subarray)
 
 if __name__ == "__main__":
-
+    
     vals = [3, 7, 8, 5, 4, 2, 6, 1]
 
     merge_sort(vals)

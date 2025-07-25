@@ -6,7 +6,7 @@ class ListNode:
         self.next = next
 
 
-def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+def mergeTwoLists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
     """
     time complexity: O(n + m)
         this is n+m because, in the worst case, you must vist every node at least once; for example, when
@@ -44,6 +44,11 @@ def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) ->
         rover.next = list2
     if list2 is None:
         rover.next = list1
+
+    # if list1:
+    #     rover.next = list1
+    # if list2:
+    #     rover.next = list2
 
     # return head.next since we started with a dummy node
     return head.next
