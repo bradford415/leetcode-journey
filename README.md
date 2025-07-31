@@ -77,12 +77,14 @@ __Official Interview Guides__
 | 22        |  Generate Parentheses               | backtrack; base case: # open == # close == n, add '(' if < n, add ')' if # close < # open    |
 | 23        |  Merge k Sorted Lists               | merge 2 lists at a time ("divide & conquer"), repeating until there's only 1 list left       |
 | 24        |  Swap Nodes in Pairs                | loop each pair while a pair exists, use ptrs & dummy node to swap pairs nodes one at a time  |
+| 25        |  Reverse Nodes in k-Group           | find kth node ptr, reverse linked list with kth.next, link groups stop when kth node == null |
 | 33        |  Search in Rotated Array            | bin search, determine if M is in left or right sorted portion, adjust L/R based on target    |
 | 34        |  First & Last Position Sorted Array | double modified bin search, one for L index and one for R index; modified=continue search    |
 | 96        |  Unique Binary Search Trees         | DP; consider every node to be root, find number of tree combinations in L & R subtrees       |
 | 98        |  Validate Binary Search Tree        | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree        | inorder traversal then check if list is sorted                                               |
 | 99        |  Recover Binary Search Tree         | inorder traversal, swap first & last violation or swap first & middle violation if adjacent  |
+| 206       |  Reverse Linked List                | while curr, set ptr to last_node.next, set|
 
 ## Quick formulas
 | Description                                        | Formula         |
