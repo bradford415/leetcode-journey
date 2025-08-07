@@ -55,6 +55,7 @@ __Official Interview Guides__
 ## Concepts that you should be able to code by muscle memory
 * Binary search
 * DFS (pre, in, post)
+* Permutation of a string recursively
 
 ## Problems completed:
 | Problem # | Name                                 | Help Hint                                                                                    |
