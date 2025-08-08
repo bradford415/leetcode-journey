@@ -82,6 +82,7 @@ __Official Interview Guides__
 | 26        |  Remove Duplicates from Sorted Array | save highest unique & next idx, loop through array, if curr val > highest unique then swap   |
 | 27        |  Remove Element                      | k=0, loop through array (i), if arr[i] == val, swap k and i, increment k, return k           |
 | 30        |  Substring Concatentation All Words  | sliding win + map; create freq_map, decrement map if sub_s in map, invalid if freq <= 0      |
+| 31        |  Next Permutation                    | find break point, swap with num <= bp+1 and num > bp, reverse elements right of bp (see code)|
 | 33        |  Search in Rotated Array             | bin search, determine if M is in left or right sorted portion, adjust L/R based on target    |
 | 34        |  First & Last Position Sorted Array  | double modified bin search, one for L index and one for R index; modified=continue search    |
 | 96        |  Unique Binary Search Trees          | DP; consider every node to be root, find number of tree combinations in L & R subtrees       |
