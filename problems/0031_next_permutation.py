@@ -39,8 +39,6 @@ def nextPermutation(nums: List[int]) -> None:
         R -= 1
 
     return nums
-    
-    return
 
 
 
