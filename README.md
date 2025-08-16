@@ -86,7 +86,8 @@ __Official Interview Guides__
 | 33        |  Search in Rotated Array             | bin search, determine if M is in left or right sorted portion, adjust L/R based on target    |
 | 34        |  First & Last Position Sorted Array  | double modified bin search, one for L index and one for R index; modified=continue search    |
 | 35        |  Search Insert Position              | binary search, return L if not found in array                                                |
-| 96        |  Unique Binary Search Trees          | DP; consider every node to be root, find number of tree combinations in L & R subtrees       |
+| 35        |  Search Insert Position              | binary search, return L if not found in array                                                |
+| 96        |  Valid Sudoku                        | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         | inorder traversal then check if list is sorted                                               |
 | 99        |  Recover Binary Search Tree          | inorder traversal, swap first & last violation or swap first & middle violation if adjacent  |
