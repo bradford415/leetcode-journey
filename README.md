@@ -88,6 +88,7 @@ __Official Interview Guides__
 | 35        |  Search Insert Position              | binary search, return L if not found in array                                                |
 | 35        |  Search Insert Position              | binary search, return L if not found in array                                                |
 | 38        |  Count and Say                       | iterative sliding window                                                                     |
+| 39        |  Combination Sum                     | recursive decision tree where right subtree cannot include last element of left subtree      |
 | 96        |  Valid Sudoku                        | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         | inorder traversal then check if list is sorted                                               |
