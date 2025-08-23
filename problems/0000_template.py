@@ -16,5 +16,5 @@ if __name__ == "__main__":
     # test cases
     case_1 = 5
 
-    ret = functionName()
+    ret = functionName(case_1)
     print(ret)
