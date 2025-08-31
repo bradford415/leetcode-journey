@@ -91,6 +91,7 @@ __Official Interview Guides__
 | 39        |  Combination Sum                     | recursive decision tree where right subtree cannot include last element of left subtree      |
 | 40        |  Combination Sum 2                   | sort candidates, recursive decision tree like LC 39, right subtree skip duplicates           |
 | 41        |  First Missing Positive              | modify input; 1st set negs to 0, 2nd set pos ints inds to negs, 3rd if val inds neg val exist|
+| 42        |  Trapping Rain Water                 | L/R pointers; shift L or R if min(max_L, max_R), calc rain min(max_L, max_R) - height[curr]  |
 | 96        |  Valid Sudoku                        | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         | inorder traversal then check if list is sorted                                               |
