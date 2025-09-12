@@ -46,6 +46,8 @@ __Algorithms__
 - Sorting
   - [merge sort](https://www.youtube.com/watch?v=3j0SWDX4AtU&ab_channel=BroCode)
 - Super easy to understand tree traversals for [preorder](https://www.youtube.com/watch?v=1WxLM2hwL-U&ab_channel=MichaelSambol), [inorder](https://www.youtube.com/watch?v=5dySuyZf9Qg&ab_channel=MichaelSambol), and [postorder](https://www.youtube.com/watch?v=4zVdfkpcT6U&ab_channel=MichaelSambol)
+- Recursion
+  - [Finding all permutations](https://www.geeksforgeeks.org/dsa/write-a-c-program-to-print-all-permutations-of-a-given-string/)
 
 __Official Interview Guides__
   - [Meta's official interview guide](https://www.metacareers.com/swe-prep-onsite)
