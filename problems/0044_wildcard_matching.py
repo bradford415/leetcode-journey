@@ -39,7 +39,7 @@ def isMatch(s: str, p: str) -> bool:
 
             memo[(str_i, pat_j)] = True
             return True
-
+    
         if text[str_i] == pattern[pat_j] or pattern[pat_j] == "?":
             ans =  all_matches(str_i - 1, pat_j - 1, text, pattern)
             memo[(str_i, pat_j)] = ans
