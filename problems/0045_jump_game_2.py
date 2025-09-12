@@ -41,6 +41,10 @@ class Solver:
     
 
     def jump_greedy(self, nums: List[int]) -> int:
+        """       
+        time complexity: O(n)
+        space complexity:
+        """
         
         result = 0
         left = 0
