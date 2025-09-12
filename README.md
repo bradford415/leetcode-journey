@@ -98,6 +98,7 @@ __Official Interview Guides__
 | 43        |  Multiply Strings                    | Convert str to int (ascii to int, multiply by 10 by position and sum), mult, int back to str |
 | 44        |  Wildcard Matching                   | recursive exhaustion, matching regularly, and branch recursion on "*"; dp (memoization)      |
 | 45        |  Jump Game 2                         | L/R, num_groups = min_jumps O(n); or DP O(n^2) TODO still need to understand DP approach     |
+| 46        |  Permutations                        | backtracking                                                                                 |
 | 96        |  Valid Sudoku                        | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         | inorder traversal then check if list is sorted                                               |
