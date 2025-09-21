@@ -100,7 +100,7 @@ __Official Interview Guides__
 | 45        |  Jump Game 2                         | L/R, num_groups = min_jumps O(n); or DP O(n^2) TODO still need to understand DP approach     |
 | 46        |  Permutations                        | backtracking                                                                                 |
 | 47        |  Permutations 2                      | hashmap for count of nums, loop through keys, append if count > 0, backtrack hashmap & pop   |
-| 48        |  Rotate Image                        | tranpose array then reverse each row                                                         |
+| 48        |  Rotate Image                        | tranpose array then reverse each row; neetcode has different solution                        |
 | 96        |  Valid Sudoku                        | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         | inorder traversal then check if list is sorted                                               |
