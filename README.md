@@ -103,6 +103,7 @@ __Official Interview Guides__
 | 48        |  Rotate Image                        | tranpose array then reverse each row; neetcode has different solution                        |
 | 49        |  Group Anagrams                      | dict w/ char counts as keys [0]*26 use `ord()` to make the count key                         |
 | 50        |  Pow(x, n)                           | recursion reduce exponent by // 2 each time                                                  |
+| 51        |  N-Queens                            | backtracking, places queens row by row, keep track of cols, pos_diag, & neg_diag w/ sets     |
 | 96        |  Valid Sudoku                        | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         | inorder traversal then check if list is sorted                                               |
