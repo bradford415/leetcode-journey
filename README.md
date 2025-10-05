@@ -105,6 +105,8 @@ __Official Interview Guides__
 | 49        |  Group Anagrams                      | dict w/ char counts as keys [0]*26 use `ord()` to make the count key                         |
 | 50        |  Pow(x, n)                           | recursion reduce exponent by // 2 each time                                                  |
 | 51        |  N-Queens                            | backtracking, places queens row by row, keep track of cols, pos_diag, & neg_diag w/ sets     |
+| 52        |  N-Queens 2                          | Same solution as N-queens except we don't need to keep track of the board; just count valids |
+| 53        |  Maximum Subarray                    | running sum, take max val, reset running sum to 0 if it's less than 0  |
 | 96        |  Valid Sudoku                        | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         | inorder traversal then check if list is sorted                                               |
