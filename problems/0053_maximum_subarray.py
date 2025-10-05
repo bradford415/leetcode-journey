@@ -19,19 +19,16 @@ class Solution:
 
 
     def maxSubArray(self, nums: List[int]):
-        """
+        """Kadane's algorithm
+
         time complexity: O(n)
         space complexity: O(1)
         """
-        
         max_val = nums[0]
         running_sum = nums[0]
 
         for i in range(1, len(nums)):
-            if running_sum < 0:
-                running_sum = 0
-            running_sum += nums[i]
-
+            running_sum = max(nums[i], running_sum + nums[i])
             max_val = max(max_val, running_sum)
 
         return max_val
