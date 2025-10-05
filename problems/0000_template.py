@@ -1,13 +1,13 @@
 from typing import List, Optional
 
-
-def functionName():
-    """
-    time complexity:
-    space complexity:
-    """
-    
-    return
+class Solution:
+    def functionName():
+        """
+        time complexity:
+        space complexity:
+        """
+        
+        return
 
 
 
@@ -15,6 +15,8 @@ if __name__ == "__main__":
 
     # test cases
     case_1 = 5
+    
+    solution = Solution()
 
-    ret = functionName(case_1)
+    ret = solution.functionName(case_1)
     print(ret)
