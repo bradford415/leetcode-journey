@@ -29,6 +29,7 @@ Code and notes repository for my leetcode journey
 ### Other sets of problems to do
 - Blind 75
   - The 75 problems are specifically chosen because they cover the most fundamental and frequently asked data structures and algorithmic patterns in technical coding interviews for software engineering roles
+  - [original post](https://www.teamblind.com/post/new-year-gift-curated-list-of-top-75-leetcode-questions-to-save-your-time-oam1oreu)
 - Neet Code 150
 
 ## Interview Tips
