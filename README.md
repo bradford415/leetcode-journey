@@ -29,6 +29,7 @@ Code and notes repository for my leetcode journey
 ### Other sets of problems to do
 - Blind 75
   - The 75 problems are specifically chosen because they cover the most fundamental and frequently asked data structures and algorithmic patterns in technical coding interviews for software engineering roles
+  - [original post](https://www.teamblind.com/post/new-year-gift-curated-list-of-top-75-leetcode-questions-to-save-your-time-oam1oreu)
 - Neet Code 150
 
 ## Interview Tips
@@ -49,6 +50,9 @@ __Algorithms__
 - Recursion
   - [Finding all permutations](https://www.geeksforgeeks.org/dsa/write-a-c-program-to-print-all-permutations-of-a-given-string/)
     - the diagram at the top is truly the gold standard for permutation algorithm explanation
+ - [Kadane's Algorithm](https://www.youtube.com/watch?v=NUWAXbSlsws)
+   - Pretty specific to the maximum subarray problem
+   - Very simple
 
 __Official Interview Guides__
   - [Meta's official interview guide](https://www.metacareers.com/swe-prep-onsite)
@@ -103,6 +107,9 @@ __Official Interview Guides__
 | 48        |  Rotate Image                        | tranpose array then reverse each row; neetcode has different solution                        |
 | 49        |  Group Anagrams                      | dict w/ char counts as keys [0]*26 use `ord()` to make the count key                         |
 | 50        |  Pow(x, n)                           | recursion reduce exponent by // 2 each time                                                  |
+| 51        |  N-Queens                            | backtracking, places queens row by row, keep track of cols, pos_diag, & neg_diag w/ sets     |
+| 52        |  N-Queens 2                          | Same solution as N-queens except we don't need to keep track of the board; just count valids |
+| 53        |  Maximum Subarray                    | Kadane's algorithm; if run_sum + curr_val > run_sum then add to sum, else reset to curr val  |
 | 96        |  Valid Sudoku                        | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         | inorder traversal then check if list is sorted                                               |
