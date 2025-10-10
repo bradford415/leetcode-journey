@@ -55,5 +55,5 @@ if __name__ == "__main__":
 
     solver = Solution()
 
-    ret = solver.functionName(case_1)
+    ret = solver.spiralOrder(case_1)
     print(ret)
