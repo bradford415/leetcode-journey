@@ -42,6 +42,9 @@ Treat LeetCode like an interview
 ### Notes:
 - Do NOT spend longer than 40 minutes on a problem (start a timer when I start the problem)
 
+## Problem Tricks
+- For interval problems it's very helpful to DRAW A NUMBERLINE
+
 ## Resources
 __Algorithms__
 - Sorting
@@ -111,6 +114,7 @@ __Official Interview Guides__
 | 52        |  N-Queens 2                          | Same solution as N-queens except we don't need to keep track of the board; just count valids |
 | 53        |  Maximum Subarray                    | Kadane's algorithm; if run_sum + curr_val > run_sum then add to sum, else reset to curr val  |
 | 55        |  Jump Game                           | Loop backward and shift the 'destination' if it can be reached; True if destination at idx 0 |
+| 56        |  Merge Intervals                     | DRAW NUMBER LINE; sort by interval min, if next interval min is <= prev interval max, merge  |
 | 96        |  Valid Sudoku                        | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         | inorder traversal then check if list is sorted                                               |
