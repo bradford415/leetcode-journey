@@ -22,7 +22,7 @@ class Solution:
                 merged_intervals[-1] = [min(combine), max(combine)] 
             else:
                 merged_intervals.append(int_i)
-
+    
         return merged_intervals
 
 
