@@ -118,6 +118,7 @@ __Official Interview Guides__
 | 57        |  Insert Interval                     | DRAW NUMBER LINE; look at edge cases, create new merged list in single for loop              |
 | 58        |  Length of Last Word                 | .split() w/o any arguments splits on all whitespace (tabs, space, newline)                   |
 | 59        |  Spiral Matrix 2                     | top, bot, left, right bounds; inc/dec bound when row/col inserted; top <= bot & left <= right|
+| 59        |  Permutation Sequence                | TODO: need to go back through and understand this one better; not a recursive solution       |
 | 96        |  Valid Sudoku                        | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         | inorder traversal then check if list is sorted                                               |
