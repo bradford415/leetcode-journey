@@ -2,8 +2,26 @@ from typing import List, Optional
 
 class Solution:
     
-    def uniquePaths(self, m, n):
-        pass
+    def uniquePaths(self, m: int, n: int) -> int:
+        "Dyanamic programming solution - efficient"
+        
+        # NOTE: the finish point (bottom right of grid) starts with (0, 0)
+        
+        # initalize the dp table so the right and bottom edges are all 1s
+        # which is the base ase
+        dp = {}
+        for col in range(n):
+            dp[(0, col)] = 1
+        for row in range(m):
+            dp[(row, 0)] = 1
+        
+        # start at cell (1, 1) and work to (m-1, n-1);
+        # the number of paths at the current cell is the sum of the paths below and to the right
+        for row in range(1, m):
+            for col in range(1, n):
+                dp[(row, col)] = dp[(row - 1, col)] + dp[(row, col - 1)]
+        
+        return dp[(m-1, n-1)]
     
     def uniquePaths_recursive_slow(self, m: int, n: int) -> int:
         """Recursive solution with memoization
@@ -46,5 +64,5 @@ if __name__ == "__main__":
     
     solution = Solution()
 
-    ret = solution.uniquePaths_recursive_slow(case_m, case_n)
+    ret = solution.uniquePaths(case_m, case_n)
     print(ret)
