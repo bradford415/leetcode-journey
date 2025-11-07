@@ -70,7 +70,7 @@ __Official Interview Guides__
 ## Problems completed:
 | Problem # | Name                                 | type         | Help Hint                                                                                    |
 |-----------|--------------------------------------|--------------|----------------------------------------------------------------------------------------------|
-| 2         |  Add Two Numbers                     | two pointers | iterate both linked lists and perform handwritten addition normally                          |
+| 2         |  Add Two Numbers                     |              | iterate both linked lists and perform handwritten addition normally                          |
 | 1         |  Two Sum                             |              | hash map and subtract target - value                                                         |
 | 3         |  Longest substring No Repeat Chars   |              | sliding window w/ left & right pointer, use set for substring                                |
 | 5         |  Longest Palindromic Substring       |              | loop all chars, use L/R pointers expanding outwards, even & odd substrings in 2 while loops  |
@@ -120,6 +120,7 @@ __Official Interview Guides__
 | 59        |  Spiral Matrix 2                     |              | top, bot, left, right bounds; inc/dec bound when row/col inserted; top <= bot & left <= right|
 | 60        |  Permutation Sequence                |              | TODO: need to go back through and understand this one better; not a recursive solution       |
 | 61        |  Rotate List                         |              | length of list, wrap `k` by % len, set tail to head, set new_tail to None, ret new head      |
+| 62        |  Unique Paths                        | dp           | dp; finish is spot (0, 0) and start is (m, n), num paths at (r, c) = (r - 1, c) + (r, c - 1) |
 | 96        |  Valid Sudoku                        |              | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         |              | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         |              | inorder traversal then check if list is sorted                                               |
