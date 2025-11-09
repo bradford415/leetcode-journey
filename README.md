@@ -122,6 +122,7 @@ __Official Interview Guides__
 | 61        |  Rotate List                         |              | length of list, wrap `k` by % len, set tail to head, set new_tail to None, ret new head      |
 | 62        |  Unique Paths                        | dp           | start spot is (0, 0) or (m, n), num paths at (r, c) = (r +/- 1, c) + (r, c +/- 1)            |
 | 63        |  Unique Paths II                     | dp           | base case fill in reverse and break if obstacle found, num path algo but set to 0 if obstacle|
+| 64        |  Minimum Sum Paths                   | dp           | num path algorithm but only sum the minimum value to the bottom and right of the current cell|
 | 96        |  Valid Sudoku                        |              | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         |              | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         |              | inorder traversal then check if list is sorted                                               |
