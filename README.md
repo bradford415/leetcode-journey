@@ -125,6 +125,7 @@ __Official Interview Guides__
 | 64        |  Minimum Sum Paths                   | dp           | num path algorithm but only sum the minimum value to the bottom and right of the current cell|
 | 66        |  Plus One                            | for loop     | loop backwards and increment, if 9 set to 0 and keep looping, if all 9s add prepend 1        |
 | 67        |  Add binary                          | for loop     | reverse strs loop through longer one, % 2 for sum, // 2 carry, prepend O(n^2) or .join O(n)  |
+| 68        |  Justify Text                        |              | TODO: problem is unfinished but in the repo; not sure if this one is worth finishing         |
 | 96        |  Valid Sudoku                        |              | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         |              | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         |              | inorder traversal then check if list is sorted                                               |
