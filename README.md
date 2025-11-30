@@ -48,7 +48,8 @@ Treat LeetCode like an interview
 ## General Notes:
 1. Dynamic programming (dp) vs memoization
    1. dp is an iterative bottom-up because we're starting with the smalleset sub-problem
-   2. memoization is a recursive top-down approach
+      1. Even though dp is iterative, the idea is to think about it recursively still
+   3. memoization is a recursive top-down approach
 
 ### recursion
 1. When accumulating the result, you almost never want to accumulate a running local variable and just save it all at once
