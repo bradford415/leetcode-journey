@@ -46,7 +46,11 @@ Treat LeetCode like an interview
 - For interval problems it's very helpful to DRAW A NUMBERLINE
 
 ## General Notes:
-__recursion__
+1. Dynamic programming (dp) vs memoization
+   1. dp is an iterative bottom-up because we're starting with the smalleset sub-problem
+   2. memoization is a recursive top-down approach
+
+### recursion
 1. When accumulating the result, you almost never want to accumulate a running local variable and just save it all at once
    1. ```python
          # WRONG
