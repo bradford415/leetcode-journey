@@ -3,7 +3,7 @@ from typing import List, Optional
 class Solution:
     def mySqrt(self, x: int) -> int:
         """Binary search, if loop finishes return mid if mid*mid <= x else mid-1 since rounding down
-        time complexity:
+        time complexity: O(log(n)) or technically O(log(x))
         space complexity:
         """
         left = 0
