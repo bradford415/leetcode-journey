@@ -45,6 +45,18 @@ Treat LeetCode like an interview
 ## Problem Tricks
 - For interval problems it's very helpful to DRAW A NUMBERLINE
 
+## General Notes:
+__recursion__
+1. When accumulating the result, you almost never want to accumulate a running local variable and just save it all at once
+   1. ```python
+         # WRONG
+         num_paths += recursive_call(do_something)
+         num_paths += recursive_call(do_something_else)
+
+         # CORRECT
+         num_paths = recursive_call(do_something) + recursive_call(do_something_else)
+      ```
+
 ## Resources
 __Algorithms__
 - Sorting
