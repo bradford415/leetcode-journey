@@ -145,6 +145,7 @@ __Official Interview Guides__
 | 67        |  Add binary                          | for loop     | reverse strs loop through longer one, % 2 for sum, // 2 carry, prepend O(n^2) or .join O(n)  |
 | 68        |  Justify Text                        |              | TODO: problem is unfinished but in the repo; not sure if this one is worth finishing         |
 | 69        |  Sqrt(x)                             | binary search| binary search & return mid; if end up loop return mid-1 if mid*mid > x                       |
+| 70        |  Climb Stairs                        | dp           | base: num ways to get to step 0 & 1, then how many ways to get from i to n (i = i-1 + i-2)   |
 | 96        |  Valid Sudoku                        |              | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
 | 98        |  Validate Binary Search Tree         |              | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
 | 98        |  Validate Binary Search Tree         |              | inorder traversal then check if list is sorted                                               |
