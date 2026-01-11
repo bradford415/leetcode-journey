@@ -3,7 +3,10 @@ from typing import List, Optional
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         """
-        time complexity:
+        time complexity: O(log(n*m))
+            NOTE: you can also do a double binary search (one on the max val in the rows) to find the right row,
+                  then do a bin search on that row, this is log(n) + log(m) which equals log(n*m) due to the log property
+                  
         space complexity:
         """
     
@@ -20,7 +23,7 @@ class Solution:
 
             if matrix[mid_r][mid_c] == target:
                 return True
-            
+
             # shift left or right pointer
             if matrix[mid_r][mid_c] < target:  
                 left = mid_flat_ind + 1 
