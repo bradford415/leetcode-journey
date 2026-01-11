@@ -86,74 +86,77 @@ __Official Interview Guides__
 * Permutation of a string recursively
 
 ## Problems completed:
-| Problem # | Name                                 | algo type    | Help Hint                                                                                    |
-|-----------|--------------------------------------|--------------|----------------------------------------------------------------------------------------------|
-| 2         |  Add Two Numbers                     |              | iterate both linked lists and perform handwritten addition normally                          |
-| 1         |  Two Sum                             |              | hash map and subtract target - value                                                         |
-| 3         |  Longest substring No Repeat Chars   |              | sliding window w/ left & right pointer, use set for substring                                |
-| 5         |  Longest Palindromic Substring       |              | loop all chars, use L/R pointers expanding outwards, even & odd substrings in 2 while loops  |
-| 6         |  Zigag Conversion                    |              | increment to get to next char, for middle rows handle the extra character                    |
-| 7         |  Reverse Integer                     |              | result = result*10 + integer % 10, reduce number -> int(x / 10); check overflow on last digit|
-| 10        |  Regular Expression Matching         |              | TODO: need to go back and look through this problem and finish it                            |
-| 11        |  Container With Most Water           |              | left and right pointers at opposite ends of array                                            |
-| 12        |  Integer to Roman                    |              | build Roman numeral map and include the "special cases"                                      |
-| 13        |  Roman to Integer                    |              | build map and include special cases or subtract the symbol if it's smaller than the next     |
-| 15        |  Three Sum                           |              | sort array, fix a number and make two sum problem then use L & R pointers                    |
-| 17        |  Letter Combos of a Phone Number     |              | Backtrack with recursion                                                                     |
-| 19        |  Remove Nth Node From End of List    |              | count elements                                                                               |
-| 20        |  Valid Parentheses                   |              | add to stack until closing brace, use map for open-close pair, pop stack pair matches        |
-| 21        |  Merge Two Sorted Lists              |              | loop till end of 1 list, link smaller val, link remaining list                               |
-| 22        |  Generate Parentheses                |              | backtrack; base case: # open == # close == n, add '(' if < n, add ')' if # close < # open    |
-| 23        |  Merge k Sorted Lists                |              | merge 2 lists at a time ("divide & conquer"), repeating until there's only 1 list left       |
-| 24        |  Swap Nodes in Pairs                 |              | loop each pair while a pair exists, use ptrs & dummy node to swap pairs nodes one at a time  |
-| 25        |  Reverse Nodes in k-Group            |              | find kth node ptr, reverse linked list with kth.next, link groups stop when kth node == null |
-| 26        |  Remove Duplicates from Sorted Array |              | save highest unique & next idx, loop through array, if curr val > highest unique then swap   |
-| 27        |  Remove Element                      |              | k=0, loop through array (i), if arr[i] == val, swap k and i, increment k, return k           |
-| 30        |  Substring Concatentation All Words  |              | sliding win + map; create freq_map, decrement map if sub_s in map, invalid if freq <= 0      |
-| 31        |  Next Permutation                    |              | find break point, swap with num <= bp+1 and num > bp, reverse elements right of bp (see code)|
-| 33        |  Search in Rotated Array             |              | bin search, determine if M is in left or right sorted portion, adjust L/R based on target    |
-| 34        |  First & Last Position Sorted Array  |              | double modified bin search, one for L index and one for R index; modified=continue search    |
-| 35        |  Search Insert Position              |              | binary search, return L if not found in array                                                |
-| 35        |  Search Insert Position              |              | binary search, return L if not found in array                                                |
-| 38        |  Count and Say                       |              | iterative sliding window                                                                     |
-| 39        |  Combination Sum                     |              | recursive decision tree where right subtree cannot include last element of left subtree      |
-| 40        |  Combination Sum 2                   |              | sort candidates, recursive decision tree like LC 39, right subtree skip duplicates           |
-| 41        |  First Missing Positive              |              | modify input; 1st set negs to 0, 2nd set pos ints inds to negs, 3rd if val inds neg val exist|
-| 42        |  Trapping Rain Water                 |              | L/R pointers; shift L or R if min(max_L, max_R), calc rain min(max_L, max_R) - height[curr]  |
-| 43        |  Multiply Strings                    |              | Convert str to int (ascii to int, multiply by 10 by position and sum), mult, int back to str |
-| 44        |  Wildcard Matching                   |              | recursive exhaustion, matching regularly, and branch recursion on "*"; dp (memoization)      |
-| 45        |  Jump Game 2                         |              | L/R, num_groups = min_jumps O(n); or DP O(n^2) TODO still need to understand DP approach     |
-| 46        |  Permutations                        |              | backtracking                                                                                 |
-| 47        |  Permutations 2                      |              | hashmap for count of nums, loop through keys, append if count > 0, backtrack hashmap & pop   |
-| 48        |  Rotate Image                        |              | tranpose array then reverse each row; neetcode has different solution                        |
-| 49        |  Group Anagrams                      |              | dict w/ char counts as keys [0]*26 use `ord()` to make the count key                         |
-| 50        |  Pow(x, n)                           |              | recursion reduce exponent by // 2 each time                                                  |
-| 51        |  N-Queens                            |              | backtracking, places queens row by row, keep track of cols, pos_diag, & neg_diag w/ sets     |
-| 52        |  N-Queens 2                          |              | Same solution as N-queens except we don't need to keep track of the board; just count valids |
-| 53        |  Maximum Subarray                    |              | Kadane's algorithm; if run_sum + curr_val > run_sum then add to sum, else reset to curr val  |
-| 55        |  Jump Game                           |              | Loop backward and shift the 'destination' if it can be reached; True if destination at idx 0 |
-| 56        |  Merge Intervals                     |              | DRAW NUMBER LINE; sort by interval min, if next interval min is <= prev interval max, merge  |
-| 57        |  Insert Interval                     |              | DRAW NUMBER LINE; look at edge cases, create new merged list in single for loop              |
-| 58        |  Length of Last Word                 |              | .split() w/o any arguments splits on all whitespace (tabs, space, newline)                   |
-| 59        |  Spiral Matrix 2                     |              | top, bot, left, right bounds; inc/dec bound when row/col inserted; top <= bot & left <= right|
-| 60        |  Permutation Sequence                |              | TODO: need to go back through and understand this one better; not a recursive solution       |
-| 61        |  Rotate List                         |              | length of list, wrap `k` by % len, set tail to head, set new_tail to None, ret new head      |
-| 62        |  Unique Paths                        | dp           | start spot is (0, 0) or (m, n), num paths at (r, c) = (r +/- 1, c) + (r, c +/- 1)            |
-| 63        |  Unique Paths II                     | dp           | base case fill in reverse and break if obstacle found, num path algo but set to 0 if obstacle|
-| 64        |  Minimum Sum Paths                   | dp           | num path algorithm but only sum the minimum value to the bottom and right of the current cell|
-| 66        |  Plus One                            | for loop     | loop backwards and increment, if 9 set to 0 and keep looping, if all 9s add prepend 1        |
-| 67        |  Add binary                          | for loop     | reverse strs loop through longer one, % 2 for sum, // 2 carry, prepend O(n^2) or .join O(n)  |
-| 68        |  Justify Text                        |              | TODO: problem is unfinished but in the repo; not sure if this one is worth finishing         |
-| 69        |  Sqrt(x)                             | binary search| binary search & return mid; if end up loop return mid-1 if mid*mid > x                       |
-| 70        |  Climb Stairs                        | dp           | base: num ways to get to step 0 & 1, then how many ways to get from i to n (i = i-1 + i-2)   |
-| 71        |  Simplify Paths                      | stack        | append "/", loop path, if `/` handle ".."/pop() or "." and "" or skip, else build dir_name   |
-| 72        |  Edit Distance                       | dp           | cry, or watch [this video](https://www.youtube.com/watch?v=XYi2-LPrwm4)                      |
-| 73        |  Set Matrix Zeroes                   |              | This one was very tough in O(1) space                                                        |
-| 96        |  Valid Sudoku                        |              | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  |
-| 98        |  Validate Binary Search Tree         |              | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound|
-| 98        |  Validate Binary Search Tree         |              | inorder traversal then check if list is sorted                                               |
-| 99        |  Recover Binary Search Tree          |              | inorder traversal, swap first & last violation or swap first & middle violation if adjacent  |
-| 206       |  Reverse Linked List                 |              | while curr, set ptr to last_node.next, set|
+## Problems completed:
+
+| Problem # | Name                                 | algo type    | Help Hint                                                                                    						|
+|-----------|--------------------------------------|--------------|----------------------------------------------------------------------------------------------						|
+| 2         |  Add Two Numbers                     |              | iterate both linked lists and perform handwritten addition normally                          						|
+| 1         |  Two Sum                             |              | hash map and subtract target - value                                                         						|
+| 3         |  Longest substring No Repeat Chars   |              | sliding window w/ left & right pointer, use set for substring                                						|
+| 5         |  Longest Palindromic Substring       |              | loop all chars, use L/R pointers expanding outwards, even & odd substrings in 2 while loops  						|
+| 6         |  Zigag Conversion                    |              | increment to get to next char, for middle rows handle the extra character                    						|
+| 7         |  Reverse Integer                     |              | result = result*10 + integer % 10, reduce number -> int(x / 10); check overflow on last digit						|
+| 10        |  Regular Expression Matching         |              | TODO: need to go back and look through this problem and finish it                            						|
+| 11        |  Container With Most Water           |              | left and right pointers at opposite ends of array                                            						|
+| 12        |  Integer to Roman                    |              | build Roman numeral map and include the "special cases"                                      						|
+| 13        |  Roman to Integer                    |              | build map and include special cases or subtract the symbol if it's smaller than the next     						|
+| 15        |  Three Sum                           |              | sort array, fix a number and make two sum problem then use L & R pointers                    						|
+| 17        |  Letter Combos of a Phone Number     |              | Backtrack with recursion                                                                     						|
+| 19        |  Remove Nth Node From End of List    |              | count elements                                                                               						|
+| 20        |  Valid Parentheses                   |              | add to stack until closing brace, use map for open-close pair, pop stack pair matches        						|
+| 21        |  Merge Two Sorted Lists              |              | loop till end of 1 list, link smaller val, link remaining list                               						|
+| 22        |  Generate Parentheses                |              | backtrack; base case: # open == # close == n, add '(' if < n, add ')' if # close < # open    						|
+| 23        |  Merge k Sorted Lists                |              | merge 2 lists at a time ("divide & conquer"), repeating until there's only 1 list left       						|
+| 24        |  Swap Nodes in Pairs                 |              | loop each pair while a pair exists, use ptrs & dummy node to swap pairs nodes one at a time  						|
+| 25        |  Reverse Nodes in k-Group            |              | find kth node ptr, reverse linked list with kth.next, link groups stop when kth node == null 						|
+| 26        |  Remove Duplicates from Sorted Array |              | save highest unique & next idx, loop through array, if curr val > highest unique then swap   						|
+| 27        |  Remove Element                      |              | k=0, loop through array (i), if arr[i] == val, swap k and i, increment k, return k           						|
+| 30        |  Substring Concatentation All Words  |              | sliding win + map; create freq_map, decrement map if sub_s in map, invalid if freq <= 0      						|
+| 31        |  Next Permutation                    |              | find break point, swap with num <= bp+1 and num > bp, reverse elements right of bp (see code)						|
+| 33        |  Search in Rotated Array             |              | bin search, determine if M is in left or right sorted portion, adjust L/R based on target    						|
+| 34        |  First & Last Position Sorted Array  |              | double modified bin search, one for L index and one for R index; modified=continue search    						|
+| 35        |  Search Insert Position              |              | binary search, return L if not found in array                                                						|
+| 35        |  Search Insert Position              |              | binary search, return L if not found in array                                                						|
+| 38        |  Count and Say                       |              | iterative sliding window                                                                     						|
+| 39        |  Combination Sum                     |              | recursive decision tree where right subtree cannot include last element of left subtree      						|
+| 40        |  Combination Sum 2                   |              | sort candidates, recursive decision tree like LC 39, right subtree skip duplicates           						|
+| 41        |  First Missing Positive              |              | modify input; 1st set negs to 0, 2nd set pos ints inds to negs, 3rd if val inds neg val exist						|
+| 42        |  Trapping Rain Water                 |              | L/R pointers; shift L or R if min(max_L, max_R), calc rain min(max_L, max_R) - height[curr]  						|
+| 43        |  Multiply Strings                    |              | Convert str to int (ascii to int, multiply by 10 by position and sum), mult, int back to str 						|
+| 44        |  Wildcard Matching                   |              | recursive exhaustion, matching regularly, and branch recursion on "*"; dp (memoization)      						|
+| 45        |  Jump Game 2                         |              | L/R, num_groups = min_jumps O(n); or DP O(n^2) TODO still need to understand DP approach     						|
+| 46        |  Permutations                        |              | backtracking                                                                                 						|
+| 47        |  Permutations 2                      |              | hashmap for count of nums, loop through keys, append if count > 0, backtrack hashmap & pop   						|
+| 48        |  Rotate Image                        |              | tranpose array then reverse each row; neetcode has different solution                        						|
+| 49        |  Group Anagrams                      |              | dict w/ char counts as keys [0]*26 use `ord()` to make the count key                         						|
+| 50        |  Pow(x, n)                           |              | recursion reduce exponent by // 2 each time                                                  						|
+| 51        |  N-Queens                            |              | backtracking, places queens row by row, keep track of cols, pos_diag, & neg_diag w/ sets     						|
+| 52        |  N-Queens 2                          |              | Same solution as N-queens except we don't need to keep track of the board; just count valids 						|
+| 53        |  Maximum Subarray                    |              | Kadane's algorithm; if run_sum + curr_val > run_sum then add to sum, else reset to curr val  						|
+| 55        |  Jump Game                           |              | Loop backward and shift the 'destination' if it can be reached; True if destination at idx 0 						|
+| 56        |  Merge Intervals                     |              | DRAW NUMBER LINE; sort by interval min, if next interval min is <= prev interval max, merge  						|
+| 57        |  Insert Interval                     |              | DRAW NUMBER LINE; look at edge cases, create new merged list in single for loop              						|
+| 58        |  Length of Last Word                 |              | .split() w/o any arguments splits on all whitespace (tabs, space, newline)                   						|
+| 59        |  Spiral Matrix 2                     |              | top, bot, left, right bounds; inc/dec bound when row/col inserted; top <= bot & left <= right						|
+| 60        |  Permutation Sequence                |              | TODO: need to go back through and understand this one better; not a recursive solution       						|
+| 61        |  Rotate List                         |              | length of list, wrap `k` by % len, set tail to head, set new_tail to None, ret new head      						|
+| 62        |  Unique Paths                        | dp           | start spot is (0, 0) or (m, n), num paths at (r, c) = (r +/- 1, c) + (r, c +/- 1)            						|
+| 63        |  Unique Paths II                     | dp           | base case fill in reverse and break if obstacle found, num path algo but set to 0 if obstacle						|
+| 64        |  Minimum Sum Paths                   | dp           | num path algorithm but only sum the minimum value to the bottom and right of the current cell						|
+| 66        |  Plus One                            | for loop     | loop backwards and increment, if 9 set to 0 and keep looping, if all 9s add prepend 1        						|
+| 67        |  Add binary                          | for loop     | reverse strs loop through longer one, % 2 for sum, // 2 carry, prepend O(n^2) or .join O(n)  						|
+| 68        |  Justify Text                        |              | TODO: problem is unfinished but in the repo; not sure if this one is worth finishing         						|
+| 69        |  Sqrt(x)                             | binary search| binary search & return mid; if end up loop return mid-1 if mid*mid > x                       						|
+| 70        |  Climb Stairs                        | dp           | base: num ways to get to step 0 & 1, then how many ways to get from i to n (i = i-1 + i-2)   						|
+| 71        |  Simplify Paths                      | stack        | append "/", loop path, if `/` handle ".."/pop() or "." and "" or skip, else build dir_name   						|
+| 72        |  Edit Distance                       | dp           | cry, or watch [this video](https://www.youtube.com/watch?v=XYi2-LPrwm4)                      						|
+| 73        |  Set Matrix Zeroes                   |              | This one was very tough in O(1) space                                                        						|
+| 74        |  Search 2D Matrix                    | binary search| bin search on flat inds, convert mid to 2d inds when accessing (flat_inds//num_cols & flat inds%num_cols) log(n*m)  |
+| 96        |  Valid Sudoku                        |              | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  						|
+| 98        |  Validate Binary Search Tree         |              | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound						|
+| 98        |  Validate Binary Search Tree         |              | inorder traversal then check if list is sorted                                               						|
+| 99        |  Recover Binary Search Tree          |              | inorder traversal, swap first & last violation or swap first & middle violation if adjacent  						|
+| 206       |  Reverse Linked List                 |              | while curr, set ptr to last_node.next, set																		    |
 
 ## Quick formulas
 | Description                                        | Formula         |
