@@ -152,11 +152,12 @@ __Official Interview Guides__
 | 72        |  Edit Distance                       | dp           | cry, or watch [this video](https://www.youtube.com/watch?v=XYi2-LPrwm4)                      						|
 | 73        |  Set Matrix Zeroes                   |              | This one was very tough in O(1) space                                                        						|
 | 74        |  Search 2D Matrix                    | binary search| bin search on flat inds, convert mid to 2d inds when accessing (flat_inds//num_cols & flat inds%num_cols) log(n*m)  |
+| 75        |  Sort Colors                         | L/R pointers | L/R points, val[i] == 0 swap L & i++, if val[i] == 2 swap R do NOT i++, if val == 1 skip; danish flag algo   |
 | 96        |  Valid Sudoku                        |              | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  						|
 | 98        |  Validate Binary Search Tree         |              | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound						|
 | 98        |  Validate Binary Search Tree         |              | inorder traversal then check if list is sorted                                               						|
 | 99        |  Recover Binary Search Tree          |              | inorder traversal, swap first & last violation or swap first & middle violation if adjacent  						|
-| 206       |  Reverse Linked List                 |              | while curr, set ptr to last_node.next, set																		    |
+| 206       |  Reverse Linked List                 |              | while curr, set ptr to last_node.next, set																		               |
 
 ## Quick formulas
 | Description                                        | Formula         |
