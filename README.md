@@ -62,7 +62,7 @@ Treat LeetCode like an interview
          # CORRECT
          num_paths = recursive_call(do_something) + recursive_call(do_something_else)
       ```
-### Common patterns
+## Common patterns
 1. Sliding window
    1. for a fixed-sized window is to use a for loop for the right pointer and derive the left pointer from the right pointer
    1. for a dynamic-sized window is to use a for loop to increment the right pointer, then a nested while loop to shrink the left bound
