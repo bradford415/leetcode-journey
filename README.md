@@ -62,6 +62,9 @@ Treat LeetCode like an interview
          # CORRECT
          num_paths = recursive_call(do_something) + recursive_call(do_something_else)
       ```
+### sliding window
+1. A common pattern for a fixed-sized window is to use a for loop for the right pointer and derive the left pointer from the right pointer
+2. A common pattern for a dynamic-sized window is to use a for loop to increment the right pointer, then a nested while loop to shrink the left bound
 
 ## Resources
 __Algorithms__
@@ -85,7 +88,6 @@ __Official Interview Guides__
 * DFS (pre, in, post)
 * Permutation of a string recursively
 
-## Problems completed:
 ## Problems completed:
 
 | Problem # | Name                                 | algo type    | Help Hint                                                                                    						|
