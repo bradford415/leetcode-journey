@@ -157,6 +157,7 @@ __Official Interview Guides__
 | 74        |  Search 2D Matrix                    | binary search| bin search on flat inds, convert mid to 2d inds when accessing (flat_inds//num_cols & flat inds%num_cols) log(n*m)  |
 | 75        |  Sort Colors                         | L/R pointers | L/R points, val[i] == 0 swap L & i++, if val[i] == 2 swap R do NOT i++, if val == 1 skip; danish flag algo   |
 | 76        |  Minimum Window Substring            | sliding win  | dynamic size sliding window; frequency map for substring and sliding window                                  |
+| 93        |  Restore IP Addresses                | backtracking | base case if len(parts)==4 & add to result if used entire string; check for leading 0 and < 255              |
 | 96        |  Valid Sudoku                        |              | double for loop to validate rows, cols, squares with map of sets; squares use tuple as keys  						|
 | 98        |  Validate Binary Search Tree         |              | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound						|
 | 98        |  Validate Binary Search Tree         |              | inorder traversal then check if list is sorted                                               						|
