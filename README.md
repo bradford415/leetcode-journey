@@ -162,6 +162,7 @@ __Official Interview Guides__
 | 98        |  Validate Binary Search Tree         |              | validate node.val w/ bounds; move left -> update right bound, move right -> update left bound						|
 | 98        |  Validate Binary Search Tree         |              | inorder traversal then check if list is sorted                                               						|
 | 99        |  Recover Binary Search Tree          |              | inorder traversal, swap first & last violation or swap first & middle violation if adjacent  						|
+| 128       |  Longest Consecutive Sequence        | set          | convert list to set, loop through set, find start of a sequence (if num[i] - 1 not in set), count up O(n)    |
 | 198       |  House Robber                        | dp           | dp array 2 extra spots for base case, loop in reverse, take money = (nums[i] + dp[i+2]) or skip=(dp[i+1])   	|
 | 206       |  Reverse Linked List                 |              | while curr, set ptr to last_node.next, set																		               |
 | 761       |  Special Binary Strings              | recursion    | treat as valid parens, 1=+1, 0=-1, strip outer 1 and 0, recurse on substring, wrap 1 & 0, sort in descending |
