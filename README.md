@@ -27,10 +27,10 @@ Code and notes repository for my leetcode journey
 3. Do the first 1-50 problems in order
 
 ### Other sets of problems to do
-- Blind 75
+- [Blind 75](https://leetcode.com/problem-list/oizxjoit/)
   - The 75 problems are specifically chosen because they cover the most fundamental and frequently asked data structures and algorithmic patterns in technical coding interviews for software engineering roles
   - [original post](https://www.teamblind.com/post/new-year-gift-curated-list-of-top-75-leetcode-questions-to-save-your-time-oam1oreu)
-- Neet Code 150
+- [Neet Code 150](https://leetcode.com/problem-list/plakya4j/)
 
 ## Interview Tips
 Treat LeetCode like an interview
