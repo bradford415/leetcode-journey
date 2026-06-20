@@ -27,10 +27,10 @@ Code and notes repository for my leetcode journey
 3. Do the first 1-50 problems in order
 
 ### Other sets of problems to do
-- Blind 75
+- [Blind 75](https://leetcode.com/problem-list/oizxjoit/)
   - The 75 problems are specifically chosen because they cover the most fundamental and frequently asked data structures and algorithmic patterns in technical coding interviews for software engineering roles
   - [original post](https://www.teamblind.com/post/new-year-gift-curated-list-of-top-75-leetcode-questions-to-save-your-time-oam1oreu)
-- Neet Code 150
+- [Neet Code 150](https://leetcode.com/problem-list/plakya4j/)
 
 ## Interview Tips
 Treat LeetCode like an interview
@@ -165,6 +165,7 @@ __Official Interview Guides__
 | 128       |  Longest Consecutive Sequence        | set          | convert list to set, loop through set, find start of a sequence (if num[i] - 1 not in set), count up O(n)    |
 | 198       |  House Robber                        | dp           | dp array 2 extra spots for base case, loop in reverse, take money = (nums[i] + dp[i+2]) or skip=(dp[i+1])   	|
 | 206       |  Reverse Linked List                 |              | while curr, set ptr to last_node.next, set																		               |
+| 287       |  Find the Duplicate                  | floyd detect | slow & fast ptr to find intersection, slow2 ptr to find interesection of slow and slow2 and return that val  |
 | 761       |  Special Binary Strings              | recursion    | treat as valid parens, 1=+1, 0=-1, strip outer 1 and 0, recurse on substring, wrap 1 & 0, sort in descending |
 
 ## Quick formulas
