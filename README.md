@@ -61,6 +61,12 @@ Treat LeetCode like an interview
 
          # CORRECT
          num_paths = recursive_call(do_something) + recursive_call(do_something_else)
+
+         # ALSO CORRECT
+         num_coins = 0
+            for i in range(start_index, len(coins)):
+                # passing i prevents the recursion from going backwards so we count combinations, not permutations
+                num_coins += find_change(curr_mon + coins[i], i)
       ```
 ## Common patterns
 1. Sliding window
@@ -165,6 +171,7 @@ __Official Interview Guides__
 | 128       |  Longest Consecutive Sequence        | set          | convert list to set, loop through set, find start of a sequence (if num[i] - 1 not in set), count up O(n)    |
 | 198       |  House Robber                        | dp           | dp array 2 extra spots for base case, loop in reverse, take money = (nums[i] + dp[i+2]) or skip=(dp[i+1])   	|
 | 206       |  Reverse Linked List                 |              | while curr, set ptr to last_node.next, set																		               |
+| 239       |  Sliding Max Window                  | win + deque  | sliding window, use deque to hold arr indices, deque[0] should be max in the window (hard problem)           |
 | 287       |  Find the Duplicate                  | floyd detect | slow & fast ptr to find intersection, slow2 ptr to find interesection of slow and slow2 and return that val  |
 | 761       |  Special Binary Strings              | recursion    | treat as valid parens, 1=+1, 0=-1, strip outer 1 and 0, recurse on substring, wrap 1 & 0, sort in descending |
 
