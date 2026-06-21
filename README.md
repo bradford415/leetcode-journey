@@ -61,6 +61,12 @@ Treat LeetCode like an interview
 
          # CORRECT
          num_paths = recursive_call(do_something) + recursive_call(do_something_else)
+
+         # ALSO CORRECT
+         num_coins = 0
+            for i in range(start_index, len(coins)):
+                # passing i prevents the recursion from going backwards so we count combinations, not permutations
+                num_coins += find_change(curr_mon + coins[i], i)
       ```
 ## Common patterns
 1. Sliding window
