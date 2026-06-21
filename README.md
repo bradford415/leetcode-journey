@@ -173,6 +173,7 @@ __Official Interview Guides__
 | 206       |  Reverse Linked List                 |              | while curr, set ptr to last_node.next, set																		               |
 | 239       |  Sliding Max Window                  | win + deque  | sliding window, use deque to hold arr indices, deque[0] should be max in the window (hard problem)           |
 | 287       |  Find the Duplicate                  | floyd detect | slow & fast ptr to find intersection, slow2 ptr to find interesection of slow and slow2 and return that val  |
+| 518       |  Coin Change 2                       | dp           | combination w/recursion but TLE; dp table watch neetcode video                                               |
 | 761       |  Special Binary Strings              | recursion    | treat as valid parens, 1=+1, 0=-1, strip outer 1 and 0, recurse on substring, wrap 1 & 0, sort in descending |
 
 ## Quick formulas
