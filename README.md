@@ -175,6 +175,7 @@ __Official Interview Guides__
 | 287       |  Find the Duplicate                  | floyd detect | slow & fast ptr to find intersection, slow2 ptr to find interesection of slow and slow2 and return that val  |
 | 518       |  Coin Change 2                       | dp           | combination w/recursion but TLE; dp table watch neetcode video                                               |
 | 761       |  Special Binary Strings              | recursion    | treat as valid parens, 1=+1, 0=-1, strip outer 1 and 0, recurse on substring, wrap 1 & 0, sort in descending |
+| 1448      |  Count Good Nodes                    | dfs preorder | preorder traversal, keep track of max_so_far                                                                 |
 
 ## Quick formulas
 | Description                                        | Formula         |
